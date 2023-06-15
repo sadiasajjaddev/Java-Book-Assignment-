@@ -36,7 +36,7 @@ chap-5
 // var total = 5;
 // var cal = ticket * total;
 // document.write("Total cost to buy " + total + " tickets to a movie is " + cal);
-// var num = +prompt("Enter the number which table uh want");
+// var num = +prompt("Enter the number which table you want");
 // for (var i = 1; i <= 10; i++) {
 //   result = num * i;
 //   document.write(num + " x " + i + " = " + result + "<br>");
@@ -95,7 +95,7 @@ chap-5
 
 // document.write(
 //   "If you love " +
-//     favoriteSnack +
+//     favouriteSnack +
 //     " and live to be " +
 //     maxAge +
 //     " years old, you will need a lifetime supply of " +
