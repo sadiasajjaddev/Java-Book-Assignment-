@@ -3,9 +3,12 @@ Chap-2
 
 // var userName;
 // var myName = "Sadia Sajjad";
+
 // var message;
 // message = "Hello World";
+
 // alert("hey!");
+
 //  Prompt user to enter their name and save to a variable
 // var studentName = prompt("Enter your name:");
 
@@ -18,6 +21,7 @@ Chap-2
 //  Display the data in alert boxes
 // alert("Name: " + studentName);
 // alert("Age: " + age);
+
 // alert("domain: " + domain);
 // var fvrtFood = alert(
 //   "PIZZA" + "\n" + "PIZZ" + "\n" + "PIZ" + "\n" + "PI" + "\n" + "P"
