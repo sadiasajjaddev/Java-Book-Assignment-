@@ -1,8 +1,6 @@
 chap-13,15
 // ARRAYS
-// Declare an empty array using JS literal notation to store
-// student names in future
-// var studNames = [];
+
 //  Declare an empty array using JS object notation to store
 // student names in future.
 // var studNames = [];
@@ -39,25 +37,26 @@ chap-13,15
 // Assume that total marks are 500 for each student, display
 // the scores & percentages of students
 // Student names array
-// var studentNames = ["MAIRA", "MOAZIMA", "JAVED"];
+// var studentNames = ["Maryam", "Ammara", "saleha"];
 
-// // Scores array
-// var scores = [20, 80, 90];
+//  Scores array
+// var scores = [40, 60, 80];
 
 // // Calculate percentages
 // var totalMarks = 100;
 // var percentages = [];
 
 // for (var i = 0; i < scores.length; i++) {
-//   var percentage = (scores[i] / totalMarks) * 100;
-//   percentages.push(percentage.toFixed(2)); // Round to 2 decimal places and add to percentages array
+// var percentage = (scores[i] / totalMarks) * 100;
+// percentages.push(percentage.toFixed(2));
+// Round to 2 decimal places and add to percentages array
 // }
 
-// // Display scores and percentages
+// Display scores and percentages
 // var table = "<table>";
 // table += "<tr><th>Student Name</th><th>Score</th><th>Percentage</th></tr>";
 
-// for (var i = 0; i < studentNames.length; i++) {
+//   for (var i = 0; i < studentNames.length; i++) {
 //   table += "<tr>";
 //   table += "<td>" + studentNames[i] + "</td>";
 //   table +=
@@ -68,42 +67,18 @@ chap-13,15
 
 // table += "</table>";
 
-// // Display table in the HTML document
+//  Display table in the HTML document
 // document.getElementById("tableContainer").innerHTML = table;
-// Initialize an array with color names. Display the array
-// elements in your browser.
-// a. Ask the user what color he/she wants to add to the
-// beginning & add that color to the beginning of the array.
-// Display the updated array in your browser.
-// b. Ask the user what color he/she wants to add to the end
-// & add that color to the end of the array. Display the
-// updated array in your browser.
-// c. Add two more color to the beginning of the array.
-// Display the updated array in your browser.
-// d. Devare the first color in the array. Display the updated
-// array in your browser.
-// e. Devare the last color in the array. Display the updated
-// array in your browser.
-// f. Ask the user at which index he/she wants to add a color
-// & color name. Then add the color to desired
-// position/index. . Display the updated array in your
-// browser.
-// g. Ask the user at which index he/she wants to devare
-// color(s) & how many colors he/she wants to devare. Then
-// Arrays | JAVASCRIPT
-// remove the same number of color(s) from user-defined
-// position/index. . Display the updated array in your
-// browser.
-// Write a program to store student scores in an array &
-// sort the array in ascending order using Array’s sort
-// method.
-var colorNames = ["green", "grey", "black", "white"];
-// // console.log(colorNames);
+
+Q9:
+Ans:
+var colorNames = ["blue", "pink", "brown", "orang"];
+//  console.log(colorNames);
 // var startColour = prompt(
 //   "Which colour you want to add in the start of an array"
 // );
 // colorNames.unshift(startColour);
-// // console.log(colorNames);
+//  console.log(colorNames);
 // var lastColour = prompt("Which colour you want to add in the last of an array");
 // colorNames.push(lastColour);
 // console.log(colorNames);
@@ -115,33 +90,41 @@ var colorNames = ["green", "grey", "black", "white"];
 // var colorAdd = prompt("which color do you want to add");
 // colorNames.splice(indexAdd, 0, colorAdd);
 // console.log(colorNames);
-// var indexDel = prompt("which index do you want to devare");
-// var colorDel = prompt("how many colors do you want to devare");
+// var indexDel = prompt("which index do you want to delete");
+// var colorDel = prompt("how many colors do you want to delete");
 // colorNames.splice(indexDel, colorDel);
 // console.log(colorNames);
-// var scores = ["70", "89", 87, " 45"];
+Q10:
+Ans:
+// var scores = ["320", "230", 480, " 120"];
 // var orderedScores = scores.sort();
 // document.write("scores of students" + scores);
 // document.write("<br>");
 // document.write("ordered scores of students" + orderedScores);
+Q11:
+Ans:
 // Write a program to initialize an array with city names.
 // Copy 3 array elements from cities array to selectedCities
 // array
-// var cities = ["karachi", "islamabad", "lahore"];
+// var cities = ["karachi", "Lahore", "Islamabad", "Quetta," Peshawar",];
 // var selectedCities = cities.slice(0, 2);
 // console.log(selectedCities);
+Q12:
+Ans:
 // Write a program to create a single string from the
 // below mentioned array:
 // var arr = [“This ”, “ is ”, “ my ”, “ cat”];
-// (Use array’s join method
+// (Use array’s join method)
 // var arr = ["This ", "is", "my", "cat"];
 // var join = arr.join();
 // document.write("<h2>Array:</h2>");
 // document.write(join);
 // document.write("<h2>String:</h2>");
-// var arr = ["This ", "is", "my", "cat"];
+//ar arr = ["This ", "is", "my", "cat"];
 // var join = arr.join(" ");
 // document.write(join);
+Q13:
+Ans:
 // Create a new array. Store values one by one in such a way
 // that you can access the values in the order in which they
 // were stored. (FIFO-First In First Out
@@ -169,9 +152,12 @@ var colorNames = ["green", "grey", "black", "white"];
 // document.write(thirdValue);
 // document.write("<h2>Out:</h2>");
 // document.write(fourthValue);
+Q14:
+Ans:
 // Create a new array. Store values one by one in such a way
-// that you can access the values in the order in which they
-// were stored. (LAST- In First Out)
+// that you can access the values in revers order.
+//  (LAST- In First Out)
+
 // var fifoArray = [];
 // console.log(fifoArray);
 // fifoArray.push("Keyboard");
@@ -197,6 +183,8 @@ var colorNames = ["green", "grey", "black", "white"];
 // document.write(thirdValue);
 // document.write("<h2>Out:</h2>");
 // document.write(fourthValue);
+Q15:
+Ans:
 // Write a program to store phone manufacturers (Apple,
 //   Samsung, Motorola, Nokia, Sony & Haier) in an array.
 //   Display the following dropdown/select menu in your
